@@ -3,4 +3,5 @@
 	<remote name="my_origin" fetch="https://github.com/675816156" />
 	<remote name="yocto" fetch="https://git.yoctoproject.org" />
 	<project path="poky" name="poky" remote="yocto" revision="kirkstone" />
+	<project path="meta-raspberrypi" name="meta-raspberrypi" remote="yocto" revision="kirkstone" />
 </manifest>
