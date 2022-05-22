@@ -4,4 +4,7 @@
 	<remote name="yocto" fetch="https://git.yoctoproject.org" />
 	<project path="poky" name="poky" remote="yocto" revision="kirkstone" />
 	<project path="meta-raspberrypi" name="meta-raspberrypi" remote="yocto" revision="kirkstone" />
+	<project path="build" name="build" remote="my_origin" revision="master" >
+		<copyfile src="build.sh" dest="build.sh" />
+	</project>
 </manifest>
